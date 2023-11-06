@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: gainsboro;
+    position: relative;
+}
+body{
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    background-color: gainsboro;
+    margin: 10px;
+    border-radius: 15px;
+}
+h2{
+    border-bottom: 3px solid gray;
+    margin: 10px 0;
+}
+#introduction>p>img{
+    height: 90px;
+    float: right;
+    margin-left: 5px;
+}
+article .chapter{
+    background-color: gainsboro;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    border-left: 3px solid gray;
+    /* position: relative; */
+}
+.chapter:hover{
+    font-weight: bold;
+}
+/* tasks08 */
+
+
+aside a img{
+    height: 32px;
+}
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6%;
+    margin: 10px;
+    text-align: center;
+}
+aside a{
+    display: block;
+}
+aside a:hover{
+    border-bottom: 1px solid white;
+}
